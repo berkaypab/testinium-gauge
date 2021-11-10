@@ -1,0 +1,105 @@
+{"logLevel":"debug","message":"multithreading is set to true"}
+{"logLevel":"debug","message":"multithreading enabled, number of threads=3"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 866milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 866"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52925"}
+{"logLevel":"info","message":"Listening on port:52925"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.openCardAndCheckAccuracy' and 'org.example.StepImplementation.openCardAndCheckAccuracy'"}
+{"logLevel":"debug","message":"Found User opens cart with View cart button and checks price accuracy in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isExistDescription' and 'org.example.StepImplementation.isExistDescription'"}
+{"logLevel":"debug","message":"Found User checks product description existence in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isExistPhoto' and 'org.example.StepImplementation.isExistPhoto'"}
+{"logLevel":"debug","message":"Found User checks product photo existence in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.addToCard' and 'org.example.StepImplementation.addToCard'"}
+{"logLevel":"debug","message":"Found User adds product to cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.fillAccountDetails' and 'org.example.StepImplementation.fillAccountDetails'"}
+{"logLevel":"debug","message":"Found User fills account details and changes their password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.fillEmailAndPasswordFields' and 'org.example.StepImplementation.fillEmailAndPasswordFields'"}
+{"logLevel":"debug","message":"Found User enters email address and password for login in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.goToMyAccountPage' and 'org.example.StepImplementation.goToMyAccountPage'"}
+{"logLevel":"debug","message":"Found User opens My Account page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.landingPage' and 'org.example.StepImplementation.landingPage'"}
+{"logLevel":"debug","message":"Found Open the SampleShop homepage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.landingPage' and 'org.example.StepImplementation.landingPage'"}
+{"logLevel":"debug","message":"Found Sayfayı aç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.selectRandomProduct' and 'org.example.StepImplementation.selectRandomProduct'"}
+{"logLevel":"debug","message":"Found User selects random product and opens detail in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.fillBillingInfos' and 'org.example.StepImplementation.fillBillingInfos'"}
+{"logLevel":"debug","message":"Found User fills mandatory fields and click \u201cPlace Order\u201d button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.proceed' and 'org.example.StepImplementation.proceed'"}
+{"logLevel":"debug","message":"Found User proceeds to checkout in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitBySecond' and 'org.example.StepImplementation.waitBySecond'"}
+{"logLevel":"debug","message":"Found wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isExist' and 'org.example.StepImplementation.isExist'"}
+{"logLevel":"debug","message":"Found User checks product {} existence in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.register' and 'org.example.StepImplementation.register'"}
+{"logLevel":"debug","message":"Found User completes registration scenario successfully by this e-mail in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.openDressesCategory' and 'org.example.StepImplementation.openDressesCategory'"}
+{"logLevel":"debug","message":"Found User opens Dresses category in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isAlreadyRegisteredAlertAppear' and 'org.example.StepImplementation.isAlreadyRegisteredAlertAppear'"}
+{"logLevel":"debug","message":"Found Check if user already registered in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.openShopPage' and 'org.example.StepImplementation.openShopPage'"}
+{"logLevel":"debug","message":"Found User opens Shop page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickEditYourPassword' and 'org.example.StepImplementation.clickEditYourPassword'"}
+{"logLevel":"debug","message":"Found User clicks \u201cedit your password and account details\u201d link. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isExistPrice' and 'org.example.StepImplementation.isExistPrice'"}
+{"logLevel":"debug","message":"Found User checks product price existence in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tUser completes registration scenario successfully by this e-mail : public void register()"}
+{"logLevel":"debug","message":"\tUser adds product to cart : public void addToCard()"}
+{"logLevel":"debug","message":"\tUser checks product photo existence : public void isExistPhoto()"}
+{"logLevel":"debug","message":"\tUser checks product description existence : public void isExistDescription()"}
+{"logLevel":"debug","message":"\tUser checks product {} existence : public void isExist(By by)"}
+{"logLevel":"debug","message":"\tUser opens Dresses category : public void openDressesCategory()"}
+{"logLevel":"debug","message":"\tUser opens My Account page : public void goToMyAccountPage()"}
+{"logLevel":"debug","message":"\tUser opens Shop page : public void openShopPage()"}
+{"logLevel":"debug","message":"\tSayfayı aç : public void landingPage()"}
+{"logLevel":"debug","message":"\tUser proceeds to checkout : public void proceed()"}
+{"logLevel":"debug","message":"\tUser selects random product and opens detail : public void selectRandomProduct()"}
+{"logLevel":"debug","message":"\tUser fills account details and changes their password : public void fillAccountDetails()"}
+{"logLevel":"debug","message":"\twait {} seconds : public void waitBySecond(ınt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck if user already registered : public void isAlreadyRegisteredAlertAppear()"}
+{"logLevel":"debug","message":"\tUser fills mandatory fields and click \u201cPlace Order\u201d button : public void fillBillingInfos()"}
+{"logLevel":"debug","message":"\tUser clicks \u201cedit your password and account details\u201d link. : public void clickEditYourPassword()"}
+{"logLevel":"debug","message":"\tUser enters email address and password for login : public void fillEmailAndPasswordFields()"}
+{"logLevel":"debug","message":"\tUser opens cart with View cart button and checks price accuracy : public void openCardAndCheckAccuracy()"}
+{"logLevel":"debug","message":"\tOpen the SampleShop homepage : public void landingPage()"}
+{"logLevel":"debug","message":"\tUser checks product price existence : public void isExistPrice()"}
+StarStitnagr tCihnrgo mCehDrroimveeDrr i9v4e.r0 .9446.006..46610 6(.46118 b(7481f85b87388fe5d8038ed0bb1c16c9b6b4e591beba40e25512ea02521718549115-re7f1s/8br5a4nc9h1-5h-eraSdtsa/46r0e6tfis@/{b#12r0a4n})c non hpgo-r hte a1ds41/64560
+Only locCahrl ocomne6nDe@rciver{ #941.200.4460}6). 6o1n ( 41p8bo7r8ft5t8 310301
+Only lociaons arel  ac8oennecdt0ibo1c69bbn4se 5a1reea 0a2l5l2l1o7lwo1e8w5ded..4
+P9l15e-asre
+Pelfsea/sbe seer ahtnt pcsshe-:h/eads//ceh htrt4o6m06@{#1e2d0r4ive}rp). sco:nh/r/cho rmpooirmtue m2d4r8ive3.5orr.gc/securi
+Onhlroy mtliyu-conms.ioodcearlg conne/csteions caurrriatet ionsa yf-or scluoglngsoiedwesretadtii.oonnss for s uon gge
+Pkleeepsiatsniego n ss Ceoher omeDrhni ver ksetaeftep.
+pinsg:/ /CchhrroommeeDdrriivveerr .scahfreo.mi
+um.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was starCted shurcocmeesDsrfiuvlelry .wa
+s started successfully.
+Eki 10, 2021 5:04:37 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Eki 10, 2021 5:04:37 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Eki 10, 2021 5:04:37 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Open the SampleShop homepage' using 'class org.example.StepImplementation.landingPage"}
+{"logLevel":"debug","message":"Executing 'Open the SampleShop homepage' using 'class org.example.StepImplementation.landingPage"}
+{"logLevel":"debug","message":"Executing 'Open the SampleShop homepage' using 'class org.example.StepImplementation.landingPage"}
+{"logLevel":"debug","message":"Executing 'User opens Shop page' using 'class org.example.StepImplementation.openShopPage"}
+{"logLevel":"debug","message":"Executing 'User opens My Account page' using 'class org.example.StepImplementation.goToMyAccountPage"}
+{"logLevel":"debug","message":"Executing 'User opens My Account page' using 'class org.example.StepImplementation.goToMyAccountPage"}
+{"logLevel":"debug","message":"Executing 'User completes registration scenario successfully by this e-mail' using 'class org.example.StepImplementation.register"}
+test
+{"logLevel":"debug","message":"Executing 'Check if user already registered' using 'class org.example.StepImplementation.isAlreadyRegisteredAlertAppear"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

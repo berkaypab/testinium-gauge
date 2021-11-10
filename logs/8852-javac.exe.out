@@ -1,0 +1,465 @@
+src\test\java\driver\Driver.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\driver\Driver.java:9: error: cannot find symbol
+    public static WebDriver driver;
+                  ^
+  symbol:   class WebDriver
+  location: class Driver
+src\test\java\driver\DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+import io.github.bonigarcia.wdm.WebDriverManager;
+                               ^
+src\test\java\driver\DriverFactory.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\driver\DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src\test\java\driver\DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+import org.openqa.selenium.firefox.FirefoxDriver;
+                                  ^
+src\test\java\driver\DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+import org.openqa.selenium.ie.InternetExplorerDriver;
+                             ^
+src\test\java\driver\DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src\test\java\driver\DriverFactory.java:12: error: cannot find symbol
+    public static WebDriver getDriver() {
+                  ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src\test\java\methods\Methods.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src\test\java\methods\Methods.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.JavascriptExecutor;
+                          ^
+src\test\java\methods\Methods.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\methods\Methods.java:7: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src\test\java\methods\Methods.java:8: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src\test\java\methods\Methods.java:9: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.Select;
+                                     ^
+src\test\java\methods\Methods.java:10: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src\test\java\methods\Methods.java:16: error: cannot find symbol
+    private WebDriver driver;
+            ^
+  symbol:   class WebDriver
+  location: class Methods
+src\test\java\methods\Methods.java:22: error: cannot find symbol
+    public WebElement findElement(By by) {
+                                  ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:22: error: cannot find symbol
+    public WebElement findElement(By by) {
+           ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:26: error: cannot find symbol
+    public List<WebElement> findElements(By by) {
+                                         ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:26: error: cannot find symbol
+    public List<WebElement> findElements(By by) {
+                ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:31: error: cannot find symbol
+    public void click(By by) {
+                      ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:36: error: cannot find symbol
+    public void clickIfExist(By by) {
+                             ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:43: error: cannot find symbol
+    public void sendKeys(By by, String text) {
+                         ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:47: error: cannot find symbol
+    public String getText(By by) {
+                          ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:52: error: cannot find symbol
+    public Boolean isEnabled(By by) {
+                             ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:56: error: cannot find symbol
+    public Boolean isDisplayed(By by) {
+                               ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:60: error: cannot find symbol
+    public void jsClick(By by) {
+                        ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:66: error: cannot find symbol
+    public void select(By by, String text) {
+                       ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:75: error: cannot find symbol
+    public void chooseRandomProduct(By by) {
+                                    ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:85: error: cannot find symbol
+    public boolean isExist(By by) {
+                           ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:98: error: cannot find symbol
+    public void waitUntil(By by) {
+                          ^
+  symbol:   class By
+  location: class Methods
+src\test\java\org\example\StepImplementation.java:6: error: package org.junit does not exist
+import org.junit.Assert;
+                ^
+src\test\java\org\example\StepImplementation.java:7: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src\test\java\org\example\StepImplementation.java:11: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+src\test\java\org\example\StepImplementation.java:19: error: cannot find symbol
+    private By edtAccDetails = By.cssSelector("div[class='woocommerce-MyAccount-content'] a[href*='my-account/edit-account']");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:20: error: cannot find symbol
+    private By edtId = By.id("account_first_name");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:21: error: cannot find symbol
+    private By edtLastName = By.id("account_last_name");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:22: error: cannot find symbol
+    private By edtPwd1 = By.id("password_1");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:23: error: cannot find symbol
+    private By edtPwd2 = By.id("password_2");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:24: error: cannot find symbol
+    private By saveButton = By.name("save_account_details");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:27: error: cannot find symbol
+    private By shopMenuBar = By.id("menu-item-834");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:28: error: cannot find symbol
+    private By dressesCategory = By.cssSelector("li[class='cat-item cat-item-23'] a");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:29: error: cannot find symbol
+    private By products = By.cssSelector("ul[class='products columns-3'] li");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:32: error: cannot find symbol
+    private By descriptionSection = By.id("tab-description");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:33: error: cannot find symbol
+    private By priceSectionProductsPage = By.cssSelector("div[class='summary entry-summary'] span bdi");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:34: error: cannot find symbol
+    private By priceSectionDetailPage = By.cssSelector("span[class='woocommerce-Price-amount amount'] bdi");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:35: error: cannot find symbol
+    private By photoSection = By.cssSelector("div[id*='product'] img[class='wp-post-image']");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:36: error: cannot find symbol
+    private By addToCardButton = By.name("add-to-cart");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:37: error: cannot find symbol
+    private By viewCardButton = By.cssSelector("a[class='button wc-forward']");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:39: error: cannot find symbol
+    private By proceedButton = By.cssSelector("div[class='wc-proceed-to-checkout'] a");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:42: error: cannot find symbol
+    private By billingFirstName = By.id("billing_first_name");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:43: error: cannot find symbol
+    private By billingLastName = By.id("billing_last_name");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:44: error: cannot find symbol
+    private By billingAddress = By.id("billing_address_1");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:45: error: cannot find symbol
+    private By billingPostCode = By.id("billing_postcode");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:46: error: cannot find symbol
+    private By billingCity = By.id("billing_city");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:47: error: cannot find symbol
+    private By billingPhone = By.id("billing_phone");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:48: error: cannot find symbol
+    private By billingEmail = By.id("billing_email");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:49: error: cannot find symbol
+    private By billingCountrySelection = By.id("billing_country");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:50: error: cannot find symbol
+    private By buttonPlaceOrder = By.cssSelector("button[id='place_order']");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:51: error: cannot find symbol
+    private By errorMessage = By.cssSelector("ul[class='woocommerce-error'] li");
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:99: error: cannot find symbol
+    public void isExist(By by) {
+                        ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\pages\MyAccountPage.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src\test\java\pages\MyAccountPage.java:6: error: cannot find symbol
+    public static By getMyAccount() {
+                  ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:10: error: cannot find symbol
+    public static By getUsername() {
+                  ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:14: error: cannot find symbol
+    public static By getPassword() {
+                  ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:18: error: cannot find symbol
+    public static By getRememberMe() {
+                  ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:22: error: cannot find symbol
+    public static By getRegisterMail() {
+                  ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:26: error: cannot find symbol
+    public static By getLoginButton() {
+                  ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:30: error: cannot find symbol
+    public static By getRegisterButton() {
+                  ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:34: error: cannot find symbol
+    public static By getRegisterErrorSection() {
+                  ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:38: error: cannot find symbol
+    private static By myAccount = By.id("menu-item-844");
+                   ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:39: error: cannot find symbol
+    private static By username = By.id("username");
+                   ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:40: error: cannot find symbol
+    private static By password = By.id("password");
+                   ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:41: error: cannot find symbol
+    private static By rememberMe = By.id("rememberme");
+                   ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:42: error: cannot find symbol
+    private static By registerMail = By.id("reg_email");
+                   ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:43: error: cannot find symbol
+    private static By loginButton = By.name("login");
+                   ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:44: error: cannot find symbol
+    private static By registerButton = By.name("register");
+                   ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\pages\MyAccountPage.java:45: error: cannot find symbol
+    private static By registerErrorSection = By.xpath("//*[@id='post-92']/div/div/div[1]/ul/li[(self::li)]");
+                   ^
+  symbol:   class By
+  location: class MyAccountPage
+src\test\java\driver\DriverFactory.java:19: error: cannot find symbol
+                WebDriverManager.iedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:20: error: cannot find symbol
+                return new InternetExplorerDriver();
+                           ^
+  symbol:   class InternetExplorerDriver
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:22: error: cannot find symbol
+                WebDriverManager.firefoxdriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:23: error: cannot find symbol
+                return new FirefoxDriver();
+                           ^
+  symbol:   class FirefoxDriver
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:26: error: cannot find symbol
+                WebDriverManager.chromedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:27: error: cannot find symbol
+                ChromeOptions opt = new ChromeOptions();
+                ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:27: error: cannot find symbol
+                ChromeOptions opt = new ChromeOptions();
+                                        ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:29: error: cannot find symbol
+                return new ChromeDriver(opt);
+                           ^
+  symbol:   class ChromeDriver
+  location: class DriverFactory
+src\test\java\methods\Methods.java:27: error: cannot find symbol
+        List<WebElement> list = driver.findElements(by);
+             ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:61: error: cannot find symbol
+        WebElement element = findElement(by);
+        ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:62: error: cannot find symbol
+        JavascriptExecutor executor = (JavascriptExecutor) driver;
+        ^
+  symbol:   class JavascriptExecutor
+  location: class Methods
+src\test\java\methods\Methods.java:62: error: cannot find symbol
+        JavascriptExecutor executor = (JavascriptExecutor) driver;
+                                       ^
+  symbol:   class JavascriptExecutor
+  location: class Methods
+src\test\java\methods\Methods.java:67: error: cannot find symbol
+        Select select = new Select(findElement(by));
+        ^
+  symbol:   class Select
+  location: class Methods
+src\test\java\methods\Methods.java:67: error: cannot find symbol
+        Select select = new Select(findElement(by));
+                            ^
+  symbol:   class Select
+  location: class Methods
+src\test\java\methods\Methods.java:76: error: cannot find symbol
+        List<WebElement> productElements = findElements(by);
+             ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:99: error: cannot find symbol
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        ^
+  symbol:   class WebDriverWait
+  location: class Methods
+src\test\java\methods\Methods.java:99: error: cannot find symbol
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+                                 ^
+  symbol:   class WebDriverWait
+  location: class Methods
+src\test\java\methods\Methods.java:100: error: cannot find symbol
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class Methods
+src\test\java\org\example\StepImplementation.java:19: error: cannot find symbol
+    private By edtAccDetails = By.cssSelector("div[class='woocommerce-MyAccount-content'] a[href*='my-account/edit-account']");
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:20: error: cannot find symbol
+    private By edtId = By.id("account_first_name");
+                       ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:21: error: cannot find symbol
+    private By edtLastName = By.id("account_last_name");
+                             ^
+  symbol:   variable By
+  location: class StepImplementation
+100 errors

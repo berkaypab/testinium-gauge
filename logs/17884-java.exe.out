@@ -1,0 +1,36 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 723milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 723"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51707"}
+{"logLevel":"info","message":"Listening on port:51707"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.goToMyAccountPage' and 'org.example.StepImplementation.goToMyAccountPage'"}
+{"logLevel":"debug","message":"Found User opens My Account page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.landingPage' and 'org.example.StepImplementation.landingPage'"}
+{"logLevel":"debug","message":"Found Open the SampleShop homepage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.landingPage' and 'org.example.StepImplementation.landingPage'"}
+{"logLevel":"debug","message":"Found Sayfayı aç in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tUser opens My Account page : public void goToMyAccountPage()"}
+{"logLevel":"debug","message":"\tSayfayı aç : public void landingPage()"}
+{"logLevel":"debug","message":"\tOpen the SampleShop homepage : public void landingPage()"}
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 46581
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Eyl 12, 2021 10:42:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Open the SampleShop homepage' using 'class org.example.StepImplementation.landingPage"}
+goktrkbaskent@gmail.com
+@z7WU0bSXm1S
+{"logLevel":"debug","message":"Executing 'User opens My Account page' using 'class org.example.StepImplementation.goToMyAccountPage"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
